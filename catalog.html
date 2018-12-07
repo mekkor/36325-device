@@ -44,32 +44,96 @@
         </div>
       </nav>
     </header>
-    <main>
-      <h1 class="visually-hidden">DEVICE</h1>
-      <section class="main-info-wrap">
-        <h2 class="visually-hidden">Информация о "DEVICE"</h2>
-        <section class="main-info">
-          <h3>О нас</h3>
-          <div class="main-info_descr">
-            <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>              <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
-          </div>
-          <ul class="main-info_delivery-list">
-            <li class="main-info_delivery-item">Деловые Линии</li>
-            <li class="main-info_delivery-item">Автотрейдинг</li>
-            <li class="main-info_delivery-item">ЖелДорЭкспедиция</li>
-          </ul>
-          <a class="btn" href="#">Подробнее о нас</a>
-        </section>
-        <section class="main-contacts">
-          <h3>Контакты</h3>
-          <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-          <a class="main-contacts_map" href="#">
-            <img src="img/main-contacts-map.jpg" alt="г. Москва, ул. Строителей, 15" width="560" height="222">
-          </a>
-          <a class="main-contacts_btn btn" href="#">Напишите нам</a>
-        </section>
-      </section>
-    </main>
+    <main class="page-content">
+		<header class="page-content_header">
+			<h2 class="page-content_title">Моноподы для селфи</h2>
+			<nav class="bread-crumbs">
+				<ul class="bread-crumbs_list">
+					<li class="bread-crumbs_item">
+						<a href="#">Главная</a>
+					</li>
+					<li class="bread-crumbs_item">
+						<a href="#">Каталог товаров</a>
+					</li>
+					<li class="bread-crumbs_item">
+						<a href="#">Моноподы для селфи</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="sidebar">
+			<header class="sidebar_header">
+				<h2>Фильтр:</h2>
+			</header>
+			<form class="filter" method="get">
+				<ul class="filter_list">
+					<li class="filter_item">
+						<h3>Цвет</h3>
+						<label>Черный</label>
+						<label>Белый</label>
+						<label>Синий</label>
+						<label>Красный</label>
+						<label>Розовый</label>
+						<input type="checkbox" name="black">
+						<input type="checkbox" name="white"
+						<input type="checkbox" name="blue">
+						<input type="checkbox" name="red">
+						<input type="checkbox" name="pink">
+					</li>
+					<li class="filter_item">
+						<h3>Bluetooth</h3>
+						<label>Есть</label>
+						<label>Нет</label>
+						<input type="radio" name="filter-control">
+						<input type="radio" name="filter-control">
+					</li>
+				</ul>
+				<button class="btn" type="submit">Показать</button>
+			</form>
+		</section>
+		<section class="products">
+			<div class="products_wrap">
+				<ul class="products_list">
+					<li class="products_item">
+						<img src="#" alt="Любительская селфи-палка" width="360" height="380">
+						<table class="products_info">
+							<tr>
+								<th class="products_name">Любительская селфи-палка</th>
+								<td class="products_price">500 руб.</td>
+							</tr>
+						</table>
+					</li>
+					<li class="products_item">
+						<img src="#" alt="Профессиональная селфи-палка" width="360" height="380">
+						<table class="products_info">
+							<tr>
+								<th class="products_name">Профессиональная селфи-палка</th>
+								<td class="products_price">1500 руб.</td>
+							</tr>
+						</table>
+					</li>
+					<li class="products_item">
+						<img src="#" alt="Непотопляемая селфи-палка" width="360" height="380">
+						<table class="products_info">
+							<tr>
+								<th class="products_name">Непотопляемая селфи-палка</th>
+								<td class="products_price">2500 руб.</td>
+							</tr>
+						</table>
+					</li>
+					<li class="products_item">
+						<img src="#" alt="Селфи-палка «Следуй за мной»" width="360" height="380">
+						<table class="products_info">
+							<tr>
+								<th class="products_name">Селфи-палка «Следуй за мной»</th>
+								<td class="products_price">4900 руб.</td>
+							</tr>
+						</table>
+					</li>
+				</ul>
+			</div>
+		</section>
+	  </main>
     <footer class="main-footer">
       <div class="container">
         <div class="main-footer_user-nav">
