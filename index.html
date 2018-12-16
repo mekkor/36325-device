@@ -9,17 +9,37 @@
       <h1><a href="#">DEVICE</a></h1>
       <nav>
         <div class="user-nav">
-          <form class="main-serach" action="#" method="#">
+          <form class="search" action="#" method="get">
             <input class="main_search" type="search" placeholder="Поиск по сайту">
+            <button class="search-button visually-hidden" type="submit">Найти</button>
           </form>
           <a class="account" href="#">Войти</a>
           <a class="compare" href="#">Сравнить</a>
           <a class="cart" href="#">Корзина</a>
         </div>
-        <div class="main-nav">
+        <div class="nav">
           <ul>
             <li>
               <a href="#">Каталог товаров</a>
+              <ul class="dropdown-nav visually-hidden">
+                <li class="first-column">
+                  <a href="#">Виртуальная реальность</a>
+                </li>
+                <li class="first-column">
+                  <a href="#">Моноподы для селфи</a>
+                </li>
+                <li class="first-column">
+                  <a href="#">Экшн-камеры</a>
+                </li>
+                <li class="second-column">
+                  <a href="#">Фитнес браслеты</a>
+                </li>
+                <li class="second-column">
+                  <a href="#">Умные часы</a>
+                </li>
+                <li class="third-column">
+                  <a href="#">Квадракоптеры</a>
+                </li>
             </li>
             <li>
               <a href="#">Доставка</a>
@@ -35,86 +55,105 @@
       </nav>
     </header>
     <main>
-      <section class="main-info-wrap">
+      <section class="info-wrap">
         <h2 class="visually-hidden">Информация о "DEVICE"</h2>
-        <section class="main-info">
+        <section class="info">
           <h3>О нас</h3>
-          <div class="main-info_descr">
+          <div class="info_descr">
             <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>              <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
           </div>
-          <ul class="main-info_delivery-list">
-            <li class="main-info_delivery-item">Деловые Линии</li>
-            <li class="main-info_delivery-item">Автотрейдинг</li>
-            <li class="main-info_delivery-item">ЖелДорЭкспедиция</li>
+          <ul class="info_delivery-list">
+            <li class="info_delivery-item">Деловые Линии</li>
+            <li class="info_delivery-item">Автотрейдинг</li>
+            <li class="info_delivery-item">ЖелДорЭкспедиция</li>
           </ul>
           <a class="btn" href="#">Подробнее о нас</a>
         </section>
-        <section class="main-contacts">
+        <section class="contacts">
           <h3>Контакты</h3>
           <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-          <a class="main-contacts_map" href="#">
+          <a class="contacts_map" href="#">
             <img src="img/map.png" alt="г. Москва, ул. Строителей, 15" width="560" height="222">
           </a>
-          <a class="main-contacts_btn btn" href="#">Напишите нам</a>
+          <a class="contacts_btn btn" href="#">Напишите нам</a>
         </section>
       </section>
     </main>
-    <footer class="main-footer">
+    <footer class="footer">
       <div class="container">
-        <div class="main-footer_user-nav">
-          <div class="main-footer_logo">
-              <a><img src="img/logo-yellow.png" alt="DEVICE" width="164" height="36"></a>
+        <div class="footer_user-nav">
+          <div class="footer_logo">
+            <h2><a href="#">DEVICE</a></h2>
           </div>
-          <ul class="main-footer_user-list">
-            <li class="main-footer_user-item  main-footer_user-item-login">
-              <a class="main-footer_user-link  main-footer_user-link-login" href="#">Войти</a>
+          <ul class="footer_user-list">
+            <li class="footer_user-item  footer_user-item-login">
+              <a class="footer_user-link  footer_user-link-login" href="#">Войти</a>
             </li>
-            <li class="main-footer_user-item  main-footer_user-item-compare">
-              <a class="main-footer_user-link  main-footer_user-link-compare" href="#">Сравнить</a>
+            <li class="footer_user-item  footer_user-item-compare">
+              <a class="footer_user-link  footer_user-link-compare" href="#">Сравнить</a>
             </li>
-            <li class="main-footer_user-item  main-footer_user-item-cart">
-              <a class="main-footer_user-link  main-footer_user-link-cart" href="#">Корзина</a>
+            <li class="footer_user-item  footer_user-item-cart">
+              <a class="footer_user-link  footer_user-link-cart" href="#">Корзина</a>
             </li>
           </ul>
         </div>
-        <div class="main-footer_info">
-          <div class="main-footer_address">
+        <div class="footer_info">
+          <div class="footer_address">
             <span>г. Москва, ул. Строителей, 15</span>
           </div>
-          <div class="main-footer_info">
-            <a class="main-footer_info-link  main-footer_info-link-delivery" href="#">Доставка</a>
-            <a class="main-footer_info-link  main-footer_info-link-warranty" href="#">Гарантия</a>
-            <a class="main-footer_info-link  main-footer_info-link-contacts" href="#">Контакты</a>
+          <div class="footer_info">
+            <a class="footer_info-link  footer_info-link-delivery" href="#">Доставка</a>
+            <a class="footer_info-link  footer_info-link-warranty" href="#">Гарантия</a>
+            <a class="footer_info-link  footer_info-link-contacts" href="#">Контакты</a>
           </div>
-          <div class="main-footer_phone">
+          <div class="footer_phone">
             <a href="#">Тел.: +7 (495) 495-95-95</a>
           </div>
         </div>
-        <div class="main-footer_social">
-          <div class="main-footer_social-wrap">
-            <ul class="main-footer_social-list">
-              <li class="main-footer_social-item">
-                <a class="main-footer_social-link main-footer_social-link-fb" href="#">
+        <div class="footer_social">
+          <div class="footer_social-wrap">
+            <ul class="footer_social-list">
+              <li class="footer_social-item">
+                <a class="footer_social-link footer_social-link-fb" href="#">
                   <span class="visually-hidden">Facebook</span>
                 </a>
               </li>
-              <li class="main-footer_social-item">
-                <a class="main-footer_social-link main-footer_social-link-i" href="#">
+              <li class="footer_social-item">
+                <a class="footer_social-link footer_social-link-i" href="#">
                   <span class="visually-hidden">Instagram</span>
                 </a>
               </li>
-              <li class="main-footer_social-item">
-                <a class="main-footer_social-link main-footer_social-link-t" href="#">
+              <li class="footer_social-item">
+                <a class="footer_social-link footer_social-link-t" href="#">
                   <span class="visually-hidden">Twitter</span>
                 </a>
               </li>
             </ul>
-            <div class="main-footer_copyright">
+            <div class="footer_copyright">
               <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-html.svg" alt="HTML Academy" width="27" height="35"></a>
             </div>
           </div>
         </div>
       </div>
     </footer>
+    <section class="popup_write-us">
+      <form class="popup_write-us_form" action="https://echo.htmlacademy.ru" method="POST">
+        <p>
+          <label><input class="popup_write-us_name" type="text" name="name" placeholder="Имя Фамилия" required>Ваше имя:</label>
+        </p>
+        <p>
+          <label><input class="popup_write-us_name" type="text" name="email" placeholder="email@example.com" required>Ваш e-mail:</label>
+        </p>
+        <p>
+          <label><textarea class="popup_write-us_text" placeholder="В свободной форме" required></textarea>Текст письма:</label>
+        </p>
+        <button class="btn" type="submit">Отправить</button>
+        <button class="popup_write-us_close" type="button">Закрыть</button>
+      </form>
+    </section>
+    <section class="popup_map">
+      <img class="map" src="img/map-big.png" width="994" height="593" alt="г. Москва, ул. Строителей, 15">
+      <button class="popup_map_close" type="button">Закрыть</button>
+    </section>
   </body>
 </html>
